@@ -1,1 +1,29 @@
-<h1>hi</h1>
+<h1>
+    alert - hello, world!
+    <button onclick="clickAlert()">확인</button>
+</h1>
+<hr>
+<h1>
+    confirm - hello, world!
+    <button onclick="clickConfirm()">확인</button>
+</h1>
+<hr>
+<h1>
+    log - hello, world!
+    <button onclick="clickLog()">확인</button>
+</h1>
+<script>
+    function clickAlert() {
+        alert("hello, world!")
+    }
+    function clickConfirm(){
+        if(confirm("hello, world!")){
+            // ok 버튼을 누르면 작동할 코드 위치
+        } else {
+            // cancel 버튼을 누르면 작동할 코드 위치
+        }
+    }
+    function clickLog(){
+        console.log("hello, world!")
+    }
+</script>
